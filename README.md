@@ -22,5 +22,15 @@
   - Then delete the `Enter client id here` text and put your bot client id
 
 - Now for the bot to work properly open the bot section for your application in the discord developer portal and turn on the presence intent, server members intent, and the message content intent
+***
+# How to keep the bot online 24/7
+- Go to [UpTimeRobot](https://uptimerobot.com)
+- Sign up or login
+- Click Add New Monitor
+- Set the monitor type to HTTP(S)
+- Set the name to anything you want and set the url to the repl url which is above the webview for example https://acoolrepl.yourusername.repl.co
+- Then set the monitor interval to "every 5 minutes" and set the monitor timeout to "in one second"
+- Then click create monitor
+- Now the pinger should work
 
-**Your are done setting up the bot, info on how to add commands and other things can be found inside [index.js](./index.js) with the code or if you want other things not included with the code I really recomend checking out [Discord.js guide](https://discordjs.guide) or using the [discord developer documentation](https://discord.com/developers/docs)**
+**Your are done setting up the bot and pinger, info on how to add commands and other things can be found inside [index.js](./index.js) with the code or if you want other things not included with the code I really recomend checking out [Discord.js guide](https://discordjs.guide) or using the [discord developer documentation](https://discord.com/developers/docs)**
